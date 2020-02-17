@@ -1,0 +1,10 @@
+C:\Users\Exoil\Resources\Net_Core\Bridge\Bridge\bin\Debug\netcoreapp3.1\Bridge.exe
+C:\Users\Exoil\Resources\Net_Core\Bridge\Bridge\bin\Debug\netcoreapp3.1\Bridge.deps.json
+C:\Users\Exoil\Resources\Net_Core\Bridge\Bridge\bin\Debug\netcoreapp3.1\Bridge.runtimeconfig.json
+C:\Users\Exoil\Resources\Net_Core\Bridge\Bridge\bin\Debug\netcoreapp3.1\Bridge.runtimeconfig.dev.json
+C:\Users\Exoil\Resources\Net_Core\Bridge\Bridge\bin\Debug\netcoreapp3.1\Bridge.dll
+C:\Users\Exoil\Resources\Net_Core\Bridge\Bridge\bin\Debug\netcoreapp3.1\Bridge.pdb
+C:\Users\Exoil\Resources\Net_Core\Bridge\Bridge\obj\Debug\netcoreapp3.1\Bridge.AssemblyInfoInputs.cache
+C:\Users\Exoil\Resources\Net_Core\Bridge\Bridge\obj\Debug\netcoreapp3.1\Bridge.AssemblyInfo.cs
+C:\Users\Exoil\Resources\Net_Core\Bridge\Bridge\obj\Debug\netcoreapp3.1\Bridge.dll
+C:\Users\Exoil\Resources\Net_Core\Bridge\Bridge\obj\Debug\netcoreapp3.1\Bridge.pdb
