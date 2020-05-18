@@ -32,7 +32,7 @@ namespace Bridge
 
         public override string ToString()
         {
-            return $"{this.id}. {this.name}";
+            return $"{this.name}";
         }
     }
 
@@ -42,12 +42,12 @@ namespace Bridge
 
         public override String Off()
         {
-            return $"Off {this} radio";
+            return $"Off {this.ToString()} radio";
         }
 
         public override String On()
         {
-            return $"Off {this} radio";
+            return $"On {this.ToString()} radio";
         }
     }
 
@@ -58,12 +58,12 @@ namespace Bridge
 
         public override String Off()
         {
-            return $"Off {this} Tv";
+            return $"Off {this.ToString()} Tv";
         }
 
         public override String On()
         {
-            return $"On {this} Tv";
+            return $"On {this.ToString()} Tv";
         }
     }
 }

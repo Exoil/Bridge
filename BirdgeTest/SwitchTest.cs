@@ -6,24 +6,50 @@ namespace BirdgeTest
 {
     public class SwitchTest
     {
-        [Fact]
-        public void TrunOnSwitch()
+        [Theory]
+        [InlineData(1,"Sony")]
+        public void TrunOnRadioSwitch(int id, string name)
         {
-            var radio = new Radio(1, "Sony");
+            var radio = new Radio(id, name);
             Bridge.Button btn = new Bridge.Button(radio);
 
-            Assert.False(btn.TurnOn().Equals(String.Empty));
+            Assert.True(btn.TurnOn().Equals($"On {radio} radio"));
            
 
         }
 
-        [Fact]
-        public void TrunOffSwitch()
+
+        [Theory]
+        [InlineData(1, "Sony")]
+        public void TrunOffRadioSwitch(int id, string name)
         {
-            var radio = new Radio(1, "Sony");
+            var radio = new Radio(id, name);
             Bridge.Button btn = new Bridge.Button(radio);
 
-            Assert.False(btn.TurnOff().Equals(String.Empty));
+            Assert.True(btn.TurnOff().Equals($"Off {radio} radio"));
+        }
+
+        [Theory]
+        [InlineData(2, "Samsung")]
+        public void TrunOnTVSwitch(int id, string name)
+        {
+            var tv = new TV(id, name);
+            Bridge.Button btn = new Bridge.Button(tv);
+
+            Assert.True(btn.TurnOn().Equals($"On {tv} Tv"));
+
+
+        }
+
+
+        [Theory]
+        [InlineData(2, "Samsung")]
+        public void TrunOffTVSwitch(int id, string name)
+        {
+            var tv = new TV(id, name);
+            Bridge.Button btn = new Bridge.Button(tv);
+
+            Assert.True(btn.TurnOff().Equals($"Off {tv} Tv"));
         }
     }
 }

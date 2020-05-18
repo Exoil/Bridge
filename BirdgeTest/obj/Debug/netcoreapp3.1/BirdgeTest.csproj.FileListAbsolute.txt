@@ -95,3 +95,5 @@ C:\Users\Exoil\Resources\Net_Core\Bridge\BirdgeTest\obj\Debug\netcoreapp3.1\Bird
 C:\Users\Exoil\Resources\Net_Core\Bridge\BirdgeTest\obj\Debug\netcoreapp3.1\BirdgeTest.csproj.CopyComplete
 C:\Users\Exoil\Resources\Net_Core\Bridge\BirdgeTest\obj\Debug\netcoreapp3.1\BirdgeTest.dll
 C:\Users\Exoil\Resources\Net_Core\Bridge\BirdgeTest\obj\Debug\netcoreapp3.1\BirdgeTest.pdb
+C:\Users\Exoil\Resources\Net_Core\Bridge\BirdgeTest\obj\Debug\netcoreapp3.1\BirdgeTest.csproj.CoreCompileInputs.cache
+C:\Users\Exoil\Resources\Net_Core\Bridge\BirdgeTest\obj\Debug\netcoreapp3.1\BirdgeTest.genruntimeconfig.cache

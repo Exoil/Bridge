@@ -26,12 +26,12 @@ namespace Bridge
         }
         public override String TurnOff()
         {
-            return device.On();
+            return device.Off();
         }
 
         public override String TurnOn()
         {
-            return device.Off();
+            return device.On();
         }
     }
 
